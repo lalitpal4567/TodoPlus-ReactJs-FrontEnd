@@ -1,0 +1,51 @@
+.description-container {
+    font-family: 'Varela Round', sans-serif;
+    height: 151.8px;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.subject-container {
+    background-color: #FFF72B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-main-container {
+    transition: all 0.2s;
+    width: 200px;
+}
+
+.card-main-container:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 8px 41px -4px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 8px 41px -4px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 8px 41px -4px rgba(0, 0, 0, 0.44);
+
+    .bottom-bar {
+        background-color: rgb(154, 255, 250);
+    }
+}
+
+.tool-icon {
+    cursor: pointer;
+}
+
+.tool-icon:hover {
+    color: dodgerblue;
+}
+
+@media (max-width: 400px) {
+    .description-container {
+        height: 80px;
+    }
+
+    .card-main-container {
+        width: 100%;
+    }
+
+}
